@@ -11,7 +11,7 @@ const Footer = () => {
 					<p className="">
 						Copyright &copy; 2022{" "}
 						<a
-							href=""
+							href="/#"
 							data-bs-toggle="modal"
 							data-bs-target="#contact"
 							className="footer-link">
@@ -43,7 +43,7 @@ const Footer = () => {
 					</p>
 
 					<a
-						href="#"
+						href="/#"
 						className="position-absolute bottom-0 end-0 p-5">
 						<BsArrowUpCircle />
 					</a>

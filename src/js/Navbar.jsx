@@ -8,7 +8,7 @@ const Navbar = () => {
 		<>
 			<nav className="navbar navbar-expand-lg navbar-dark fixed-top">
 				<div className="container">
-					<a href="#" className="navbar-brand p-0">
+					<a href="/#" className="navbar-brand p-0">
 						<img
 							src={PabloPeñaBig}
 							alt="Pablo Peña Logo"
@@ -49,7 +49,7 @@ const Navbar = () => {
 							</li>
 							<li className="nav-item">
 								<a
-									href="#"
+									href="/#"
 									className="nav-link"
 									data-bs-toggle="modal"
 									data-bs-target="#contact">

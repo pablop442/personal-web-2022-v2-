@@ -7,7 +7,7 @@ const UpperBtn = () => {
 		<>
 			<div className="my-3 text-center">
 				<a
-					href=""
+					href="/#"
 					className=""
 					data-bs-toggle="modal"
 					data-bs-target="#contact">

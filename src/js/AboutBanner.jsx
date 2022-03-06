@@ -15,7 +15,7 @@ const AboutBanner = () => {
 							<img
 								className="img-fluid d-none d-sm-block"
 								src={ProfileImg}
-								alt="Pablo Peña Image"
+								alt="Pablo Peña"
 							/>
 						</div>
 						<div className="col-lg-8 col-12">
