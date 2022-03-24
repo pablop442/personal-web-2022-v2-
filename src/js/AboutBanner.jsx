@@ -22,7 +22,7 @@ const AboutBanner = () => {
 							<p className="lead">
 								I have always been passionate about helping
 								people. Through technology the scope of my help
-								is exponential, htmlFor that reason I have
+								is exponential, for that reason I have
 								decided to turn my professional career around to
 								dedicate myself to the design of intelligent and
 								sustainable applications that represent a change
