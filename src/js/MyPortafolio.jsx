@@ -26,9 +26,7 @@ const MyPortafolio = () => {
 									<a
 										href="https://cityhold.herokuapp.com/"
 										target="_blank"
-										rel="noreferrer"
-										data-bs-toggle="modal"
-										data-bs-target="#contact">
+										rel="noreferrer">
 										Learn More
 									</a>
 								</div>
