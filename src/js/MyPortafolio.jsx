@@ -17,14 +17,15 @@ const MyPortafolio = () => {
 								<div className="card-body text-center">
 									<img
 										src={CityHold}
-										alt=""
+										alt="City Hold project"
 										id="portafolio-img"
 									/>
 									<p className="card-text">
 										City Hold Project
 									</p>
 									<a
-										href="/#"
+										href="https://cityhold.herokuapp.com/"
+										target="_blank"
 										data-bs-toggle="modal"
 										data-bs-target="#contact">
 										Learn More
