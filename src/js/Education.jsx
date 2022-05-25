@@ -34,7 +34,7 @@ const Education = () => {
 										border: "2px solid white",
 										width: "10px",
 									}}
-									date="2021 - present"
+									date="2021 - 2022"
 									dateClassName="date-text"
 									iconStyle={{
 										background: "#0A1128",

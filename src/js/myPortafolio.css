@@ -11,3 +11,20 @@ width: 40%;
     border: solid 1px #FEFCFB;
     border-radius: 20px;
 }
+
+.visit-btn{
+    background: #1282A2;
+    border-color: #FEFCFB; 
+ }
+ 
+ .visit-btn:hover{
+     background: #001F54;
+     color: #FEFCFB;
+  }
+
+.visit-btn > a {
+    color: #FEFCFB;
+    text-decoration: none;
+   
+}
+ 
