@@ -6,7 +6,7 @@ import {
 	VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaPeopleArrows, FaCogs, FaChessKnight } from "react-icons/fa";
+import { FaPeopleArrows, FaCogs, FaChessKnight, FaFlask } from "react-icons/fa";
 
 const Experience = () => {
 	return (
@@ -21,6 +21,38 @@ const Experience = () => {
 						</h3>
 						<div className="col-md-8">
 							<VerticalTimeline>
+							<VerticalTimelineElement
+									className="vertical-timeline-element--work"
+									contentStyle={{
+										background: "none",
+										color: "#fff",
+										border: "1px solid white",
+										boxShadow: "-6px 6px 2px 0px #034078",
+									}}
+									contentArrowStyle={{
+										border: "2px solid white",
+										width: "10px",
+									}}
+									date="2022 - Present"
+									dateClassName="date-text"
+									iconStyle={{
+										background: "#001F54",
+										color: "#fff",
+										border: "3px solid white",
+										boxShadow: "none",
+									}}
+									icon={<FaFlask />}>
+									<h4 className="vertical-timeline-element-title fw-bold mb-4">
+										Quality Assurance Engineer
+									</h4>
+									<h5 className="vertical-timeline-element-subtitle fst-italic mb-4">
+										Payflow
+									</h5>
+
+									<p>
+									Ensure proper test coverage and test features of App, Admin Dashboard and Web to ensure they are properly built and function correctly.
+									</p>
+								</VerticalTimelineElement>
 								<VerticalTimelineElement
 									className="vertical-timeline-element--work"
 									contentStyle={{
