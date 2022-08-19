@@ -82,14 +82,15 @@ const MyPortafolio = () => {
                     sustainable way of communication between citizens and local
                     authorities or municipalities.
                   </p>
-				  <button className="btn btn-primary visit-btn px-3"><a
-                    href="https://cityhold.herokuapp.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Check it out
-                  </a></button>
-                  
+                  <button className="btn btn-primary visit-btn px-3">
+                    <a
+                      href="https://cityhold.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Check it out
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -132,11 +133,71 @@ const MyPortafolio = () => {
                   <p className="card-text">
                     A basic to-do list app with some cool functionalities.
                     Add/delete tasks, mark them as done or important and filter
-                    them. 
+                    them.
                   </p>
                   <button className="btn btn-primary visit-btn px-3">
                     <a
                       href="https://task-list-pablodev.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Check it out
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="card bg-transparent text-light portafolio-card h-100">
+                <div className="card-body text-center">
+                  <h5 class="card-title fw-bold">R.O.I. Calculator</h5>
+                  <img
+                    src={ReactLogo}
+                    alt="react"
+                    id="portafolio-img"
+                    style={{ height: "75px", width: "75px", margin: "8px" }}
+                  />
+                  <br></br>
+                  <img
+                    src={HTMLLogo}
+                    alt="html"
+                    id="portafolio-img"
+                    style={{ height: "50px", width: "50px", margin: "8px" }}
+                  />
+                  <img
+                    src={CSSLogo}
+                    alt="css"
+                    id="portafolio-img"
+                    style={{ height: "50px", width: "50px", margin: "8px" }}
+                  />
+                  <img
+                    src={JSLogo}
+                    alt="js"
+                    id="portafolio-img"
+                    style={{ height: "50px", width: "50px", margin: "8px" }}
+                  />
+                  <img
+                    src={BSLogo}
+                    alt="bootstrap"
+                    id="portafolio-img"
+                    style={{ height: "50px", width: "50px", margin: "8px" }}
+                  />
+
+                  <p className="card-text">
+                    A Return Of Investment calculator made to run personal
+                    calculations for{" "}
+                    <a
+                      href="https://cake.monster/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Cake-Monster
+                    </a>{" "}
+                    DeFi protocol.
+                  </p>
+                  <button className="btn btn-primary visit-btn px-3">
+                    <a
+                      href="https://cake-monster-roi-calculator.netlify.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -175,14 +236,16 @@ const MyPortafolio = () => {
                     following three different random patterns determined by
                     JavaScript functions.
                   </p>
-				  <button className="btn btn-primary visit-btn px-3">  <a
-                    href="https://pablop442.github.io/showcase-randomcard/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Check it out
-                  </a></button>
-                
+                  <button className="btn btn-primary visit-btn px-3">
+                    {" "}
+                    <a
+                      href="https://pablop442.github.io/showcase-randomcard/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Check it out
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>
