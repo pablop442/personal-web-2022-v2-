@@ -23,7 +23,7 @@ const UpperBanner = () => {
               <span className="open-text">Hello!</span>
               <br /> I'm <b>Pablo Peña</b> <br />
             </h1>
-            <p className="text-start">Full-Stack Developer</p>
+            <p className="text-start">Full Stack Developer</p>
             <UpperBtn />
             <div className="my-5 ps-3  border-start">
               <Typical
