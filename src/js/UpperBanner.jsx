@@ -1,6 +1,7 @@
 import React from "react";
 import "./upperBanner.css";
 import BgImgReducedSize from "../img/BgImgReducedSize.jpg";
+
 import Typical from "react-typical";
 import UpperBtn from "./UpperBtn.jsx";
 let bgImg = {
@@ -25,6 +26,7 @@ const UpperBanner = () => {
             </h1>
             <p className="text-start">Full Stack Developer</p>
             <UpperBtn />
+
             <div className="my-5 ps-3  border-start">
               <Typical
                 steps={[

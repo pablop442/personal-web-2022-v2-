@@ -1,14 +1,12 @@
-#main-btn:hover{
-    background-color: #001F54;
-    border-color: #001F54;
-    color: #FEFCFB;
- 
-    
+#main-btn:hover {
+  background-color: #1282a2;
+  border-color: #001f54;
+  color: #fefcfb;
 }
 
-#main-btn{
-    color:  #FEFCFB;
-    font-weight: bold;
-    font-family: Noto Sans;
-    border-color: #1282A2;
+#main-btn {
+  color: #fefcfb;
+
+  font-family: Noto Sans;
+  border-color: #1282a2;
 }
