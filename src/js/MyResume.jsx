@@ -5,12 +5,12 @@ import Education from "./Education.jsx";
 import Experience from "./Experience.jsx";
 
 const MyResume = () => {
-	return (
-		<>
-			<Education />
-			<Experience />
-		</>
-	);
+  return (
+    <>
+      <Experience />
+      <Education />
+    </>
+  );
 };
 
 export default MyResume;

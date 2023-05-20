@@ -1,15 +1,15 @@
-.education-section{
-    background: #001F54;
- }
- 
- .date-text{
-    margin-left: 0.8em;
- }
+.education-section {
+  background: #0a1128;
+}
 
- .date-text-right{
-     margin-right: 0.8em;
- }
+.date-text {
+  margin-left: 0.8em;
+}
 
- .vertical-timeline::before{
-     width: 2px;
- }
+.date-text-right {
+  margin-right: 0.8em;
+}
+
+.vertical-timeline::before {
+  width: 2px;
+}

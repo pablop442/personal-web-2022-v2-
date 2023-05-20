@@ -1,9 +1,14 @@
 import React from "react";
 import "./upperBanner.css";
 import BgImgReducedSize from "../img/BgImgReducedSize.jpg";
+
 import Typical from "react-typical";
 import UpperBtn from "./UpperBtn.jsx";
 let bgImg = {
+  background: `linear-gradient(0deg, rgba(10, 17, 40, 0.7), rgba(10, 17, 40, 0.7)), url(${BgImgReducedSize})`,
+  backgroundPosition: `bottom`,
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
   background: `linear-gradient(0deg, rgba(10, 17, 40, 0.7), rgba(10, 17, 40, 0.7)), url(${BgImgReducedSize})`,
   backgroundPosition: `bottom`,
   backgroundSize: "cover",
