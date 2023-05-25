@@ -34,7 +34,7 @@ const Education = () => {
                     border: "2px solid white",
                     width: "10px",
                   }}
-                  date="2021 - 2022"
+                  date="2023"
                   dateClassName="date-text"
                   iconStyle={{
                     background: "#0A1128",
@@ -45,10 +45,10 @@ const Education = () => {
                   icon={<FaKeyboard />}
                 >
                   <h4 className="vertical-timeline-element-title fw-bold mb-4">
-                    Full Stack Developer
+                  Cypress Modern Automation Testing
                   </h4>
                   <h5 className="vertical-timeline-element-subtitle fst-italic">
-                    4Geeks Academy
+                  Udemy - Noble Work Foundation
                   </h5>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -63,7 +63,7 @@ const Education = () => {
                     border: "2px solid white",
                     width: "10px",
                   }}
-                  date="2021"
+                  date="2021 - 2022"
                   dateClassName="date-text-right"
                   iconStyle={{
                     background: "#0A1128",
@@ -74,10 +74,10 @@ const Education = () => {
                   icon={<RiBusWifiFill />}
                 >
                   <h4 className="vertical-timeline-element-title fw-bold mb-3">
-                    Sustainable Development and Smart Cities Diploma
+                  Full Stack Developer
                   </h4>
                   <h5 className="vertical-timeline-element-subtitle fst-italic">
-                    Universidad Católica Andrés Bello
+                  4Geeks Academy
                   </h5>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -92,7 +92,7 @@ const Education = () => {
                     border: "2px solid white",
                     width: "10px",
                   }}
-                  date="2015 - 2016"
+                  date="2021"
                   dateClassName="date-text"
                   iconStyle={{
                     background: "#0A1128",
@@ -103,10 +103,10 @@ const Education = () => {
                   icon={<RiGovernmentFill />}
                 >
                   <h4 className="vertical-timeline-element-title fw-bold mb-3">
-                    Master in Government and Public Administration
+                  Sustainable Development and Smart Cities Diploma
                   </h4>
                   <h5 className="vertical-timeline-element-subtitle fst-italic">
-                    Universidad Complutense
+                  Universidad Católica Andrés Bello
                   </h5>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

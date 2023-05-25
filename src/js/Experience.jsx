@@ -70,9 +70,7 @@ const Experience = () => {
                   </h5>
 
                   <p>
-                    Ensure proper test coverage and test features of App, Admin
-                    Dashboard and Web to ensure they are properly built and
-                    function correctly.
+                    Ensure high quality standards of mobile and web products, both with manual and automated testing.
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -132,15 +130,14 @@ const Experience = () => {
                   icon={<FaCogs />}
                 >
                   <h4 className="vertical-timeline-element-title fw-bold mb-3">
-                    Supervisor of Administrations and Operations
+                    Supervisor of Administration and Operations
                   </h4>
                   <h5 className="vertical-timeline-element-subtitle fst-italic">
                     Fundación Código Venezuela (NGO)
                   </h5>
                   <p>
                     Carried out the legal, financial and other day to day
-                    operations of the foundation. Supporting and developing the
-                    standarization of the processes.
+                    operations of the foundation.
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
