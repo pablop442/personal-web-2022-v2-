@@ -9,7 +9,7 @@ const Skills = () => {
         <div className="container">
           <div className="row text-center g-4">
             <h1 className="text-white text-start mt-5 mb-3">My Skills</h1>
-            <p className="lead text-white">
+            <p className="lead text-white text-start">
               Over the years, I have dedicated myself to mastering the
               intricacies of QA and automation testing, continuously expanding
               my knowledge and staying up-to-date with the latest industry
@@ -22,13 +22,13 @@ const Skills = () => {
                   <div className="h1 mb-3">
                     <FaLaptopCode />
                   </div>
-                  <h3 className="card-title mb-3">Front-End</h3>
+                  <h3 className="card-title mb-3">
+                    Test Planning and Strategy
+                  </h3>
                   <p className="card-text">
-                    HTML<br></br>
-                    CSS<br></br>
-                    Bootstrap<br></br>
-                    Javascript<br></br>
-                    React Js<br></br>
+                    Crafting comprehensive testing plans and strategies to
+                    ensure thorough coverage of software functionality and
+                    features.
                   </p>
                 </div>
               </div>
@@ -39,12 +39,11 @@ const Skills = () => {
                   <div className="h1 mb-3">
                     <FaDatabase />
                   </div>
-                  <h3 className="card-title mb-3">Back-End</h3>
+                  <h3 className="card-title mb-3">Test Automation</h3>
                   <p className="card-text">
-                    Pyton<br></br>
-                    Flask<br></br>
-                    API Rest<br></br>
-                    SQL<br></br>
+                    Utilizing automation tools and frameworks to streamline the
+                    testing process, increase efficiency, and improve the
+                    overall quality of software.
                   </p>
                 </div>
               </div>
@@ -55,11 +54,11 @@ const Skills = () => {
                   <div className="h1 mb-3">
                     <FaGitAlt />
                   </div>
-                  <h3 className="card-title mb-3">Version Control</h3>
+                  <h3 className="card-title mb-3">API Testing</h3>
                   <p className="card-text">
-                    Git<br></br>
-                    GitHub<br></br>
-                    Command Line<br></br>
+                    Verifying the functionality and reliability of application
+                    programming interfaces (APIs) through systematic testing
+                    approaches.
                   </p>
                 </div>
               </div>

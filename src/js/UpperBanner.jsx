@@ -33,17 +33,17 @@ const UpperBanner = () => {
             <div className="my-5 ps-3  border-start">
               <Typical
                 steps={[
-                  "HTML5",
+                  "TypeScript",
                   1000,
-                  "CSS",
+                  "SQL",
                   1000,
-                  "JavaScript",
+                  "Appium",
                   1000,
-                  "Python",
+                  "Cypress",
                   1000,
-                  "HTTP/Rest",
+                  "WebdriverIO",
                   1000,
-                  "Git",
+                  "CI/CD",
                   1000,
                 ]}
                 loop={Infinity}

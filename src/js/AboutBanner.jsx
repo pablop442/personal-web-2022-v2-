@@ -11,7 +11,7 @@ const AboutBanner = () => {
       >
         <div className="container">
           <div className="row align-items-center justify-content-between">
-            <h1 className="text-white my-3">About me</h1>
+            <h1 className="text-white my-3">Allow me to introduce myself...</h1>
             <div className="col-lg-4 ">
               <img
                 className="img-fluid d-none d-sm-block"
@@ -22,11 +22,7 @@ const AboutBanner = () => {
             <div className="col-lg-8 col-12">
               <p className="lead">
                 I am a seasoned legal professional who embarked on an exciting
-                journey that led me to the dynamic world of technology. With a
-                solid background in law and a decade of experience in the field,
-                I found myself facing a new chapter in my life when I moved to
-                Spain. It took some time for me to navigate through various
-                options and discover my passion for the tech industry.<br></br>
+                journey that led me to the dynamic world of technology.<br></br>
                 Eager to dive into this rapidly evolving field, I enrolled in a
                 rigorous programming bootcamp, where I honed my skills in
                 JavaScript, SQL, Python, and various other programming
