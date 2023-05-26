@@ -9,6 +9,7 @@ import MyResume from "./MyResume";
 import MyPortafolio from "./MyPortafolio";
 import Footer from "./Footer";
 
+
 function Home() {
   return (
     <>

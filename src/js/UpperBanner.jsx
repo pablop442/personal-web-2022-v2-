@@ -9,6 +9,10 @@ let bgImg = {
   backgroundPosition: `bottom`,
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
+  background: `linear-gradient(0deg, rgba(10, 17, 40, 0.7), rgba(10, 17, 40, 0.7)), url(${BgImgReducedSize})`,
+  backgroundPosition: `bottom`,
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
 };
 
 const UpperBanner = () => {
@@ -24,23 +28,22 @@ const UpperBanner = () => {
               <span className="open-text">Hello!</span>
               <br /> I'm <b>Pablo Peña</b> <br />
             </h1>
-            <p className="text-start">Full Stack Developer</p>
+            <p className="text-start">Quality Assurance Engineer</p>
             <UpperBtn />
-
             <div className="my-5 ps-3  border-start">
               <Typical
                 steps={[
-                  "HTML5",
+                  "TypeScript",
                   1000,
-                  "CSS",
+                  "SQL",
                   1000,
-                  "JavaScript",
+                  "Appium",
                   1000,
-                  "Python",
+                  "Cypress",
                   1000,
-                  "HTTP/Rest",
+                  "WebdriverIO",
                   1000,
-                  "Git",
+                  "CI/CD",
                   1000,
                 ]}
                 loop={Infinity}
