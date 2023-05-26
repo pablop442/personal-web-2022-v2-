@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import Pablo_Peña_Full_Stack from "../img/Pablo_Peña_Full_Stack.png";
+import Pablo_QA_Logo from "../img/Pablo Peña QA eng.png"
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="container">
           <a href="/#" className="navbar-brand p-0">
             <img
-              src={Pablo_Peña_Full_Stack}
+              src={Pablo_QA_Logo}
               alt="Pablo Peña Logo"
               id="logo"
               className="img-fluid"
