@@ -1,8 +1,7 @@
 import React from "react";
 import "./skills.css";
-import { FaLaptopCode, FaDatabase, FaGitAlt, FaChild, FaChess, FaCogs, FaPlug, FaRoute } from "react-icons/fa";
+import { FaLaptopCode, FaCogs, FaPlug, FaRoute } from "react-icons/fa";
 import JSLogo from "../img/javascript.svg";
-import SQLLogo from "../img/postgresql.svg";
 import AppiumLogo from "../img/appium.svg";
 import TypeScriptLogo from "../img/typescript-icon.svg";
 import CucumberLogo from "../img/cucumber.svg";
