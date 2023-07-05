@@ -1,6 +1,6 @@
 import React from "react";
 import "./upperBtn.css";
-import myCV from "../img/Pablo Peña QA Engineer (2022-12).pdf";
+import myCV from "../img/Pablo_Peña_Resume_2023_EN.pdf";
 import { FaFileDownload, FaHandsHelping } from "react-icons/fa";
 
 const UpperBtn = () => {
