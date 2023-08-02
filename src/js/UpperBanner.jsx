@@ -1,13 +1,13 @@
 import React from "react";
 import "./upperBanner.css";
 import BgImgReducedSize from "../img/BgImgReducedSize.jpg";
-
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Typical from "react-typical";
 import UpperBtn from "./UpperBtn.jsx";
 let bgImg = {
   background: `linear-gradient(0deg, rgba(10, 17, 40, 0.7), rgba(10, 17, 40, 0.7)), url(${BgImgReducedSize})`,
   backgroundPosition: `bottom`,
-  backgroundSize: "cover"
+  backgroundSize: "cover",
 };
 
 const UpperBanner = () => {
@@ -24,6 +24,26 @@ const UpperBanner = () => {
               <br /> I'm <b>Pablo Peña</b> <br />
             </h1>
             <p className="text-start">Quality Assurance Engineer</p>
+            <div className="align-items-center justify-content-between">
+              {" "}
+              <a
+                href="https://www.linkedin.com/in/pablo-pena-marin-developer/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mx-2"
+              >
+                <FaLinkedin className="contact-icon" />
+              </a>
+              <a
+                href="https://github.com/pablop442"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mx-2"
+              >
+                <FaGithub className="contact-icon" />
+              </a>
+            </div>
+
             <UpperBtn />
             <div className="my-5 ps-3  border-start">
               <Typical
