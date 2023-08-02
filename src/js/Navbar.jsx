@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import Pablo_QA_Logo from "../img/Pablo Peña QA eng.png"
+import Pablo_QA_Logo from "../img/Pablo Peña QA eng.png";
 
 const Navbar = () => {
   return (
@@ -44,7 +44,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a href="#portafolio" className="nav-link">
-                  Portafolio
+                  Projects
                 </a>
               </li>
               <li className="nav-item">

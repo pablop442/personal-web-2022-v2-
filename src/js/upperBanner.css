@@ -1,12 +1,21 @@
-#upper_name{
-    color: #FEFCFB;
-    
+#upper_name {
+  color: #fefcfb;
 }
-b{
-    font-family: Noto Sans;
+b {
+  font-family: Noto Sans;
 }
 
-.open-text{
-    font-size: 8rem;
- 
+.open-text {
+  font-size: 8rem;
+}
+
+.contact-icon {
+  color: #1ec0ec;
+  width: 45px;
+  height: 45px;
+  transition: transform 0.3s;
+}
+
+.contact-icon:hover {
+  transform: scale(1.3);
 }
