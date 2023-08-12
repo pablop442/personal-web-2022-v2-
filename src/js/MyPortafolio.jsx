@@ -86,7 +86,7 @@ const MyPortafolio = () => {
                   </p>
                   <button className="btn btn-primary visit-btn px-3">
                     <a
-                      href="https://github.com/pablop442/"
+                      href="https://github.com/pablop442/parabank-e2e"
                       target="_blank"
                       rel="noreferrer"
                     >
