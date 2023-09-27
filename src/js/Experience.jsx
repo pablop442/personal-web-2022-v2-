@@ -13,7 +13,7 @@ import {
   FaFlask,
   FaFileDownload,
 } from "react-icons/fa";
-import myCV from "../img/Pablo Peña QA Engineer (2022-12).pdf";
+import myCV from "../img/Pablo_Peña_Resume_2023_EN.pdf";
 
 const Experience = () => {
   return (
@@ -52,7 +52,7 @@ const Experience = () => {
                     border: "2px solid white",
                     width: "10px",
                   }}
-                  date="2022 - Present"
+                  date="2023 - Present"
                   dateClassName="date-text"
                   iconStyle={{
                     background: "#001F54",
@@ -63,14 +63,15 @@ const Experience = () => {
                   icon={<FaFlask />}
                 >
                   <h4 className="vertical-timeline-element-title fw-bold mb-4">
-                    Quality Assurance Engineer
+                    Quality Assurance Engineer - Mid Level
                   </h4>
                   <h5 className="vertical-timeline-element-subtitle fst-italic mb-4">
-                    Payflow
+                    Sngular
                   </h5>
 
                   <p>
-                    Ensure high quality standards of mobile and web products, both with manual and automated testing.
+                    Planning and executing automated and manual test to
+                    guarantee high quality of client's software.
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -85,7 +86,7 @@ const Experience = () => {
                     border: "2px solid white",
                     width: "10px",
                   }}
-                  date="2020 - 2021"
+                  date="2022 - 2023"
                   dateClassName="date-text"
                   iconStyle={{
                     background: "#001F54",
@@ -96,15 +97,15 @@ const Experience = () => {
                   icon={<FaPeopleArrows />}
                 >
                   <h4 className="vertical-timeline-element-title fw-bold mb-4">
-                    Costumer Support Specialist
+                    Quality Assurance Engineer - Junior
                   </h4>
                   <h5 className="vertical-timeline-element-subtitle fst-italic mb-4">
-                    Aresi Real State Administration
+                    Payflow
                   </h5>
 
                   <p>
-                    Offered optimal attention to real state owners guiding them
-                    to get the best solution to any property related problem.
+                    Ensure high quality standards of mobile and web products,
+                    both with manual and automated testing.
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

@@ -12,6 +12,8 @@ import WebDriverIo from "../img/webdriverio.svg";
 import MySQLLogo from "../img/mysql.svg";
 import BitbucketLogo from "../img/bitbucket.svg";
 import GitLogo from "../img/git-icon.svg";
+import RobotFrameworkLogo from "../img/robotframework-svgrepo-com.svg";
+import JiraLogo from "../img/jira-svgrepo-com.svg";
 
 const Skills = () => {
   return (
@@ -87,7 +89,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="container">
-          <div className="row align-items-center justify-content-between">
+          <div className="row align-items-center justify-content-evenly">
             <img
               src={TypeScriptLogo}
               alt="typescript"
@@ -106,7 +108,12 @@ const Skills = () => {
               id="portafolio-img"
               style={{ height: "75px", width: "75px", margin: "8px" }}
             />
-            <br></br>
+            <img
+              src={RobotFrameworkLogo}
+              alt="robotframework"
+              id="portafolio-img"
+              style={{ height: "85px", width: "85px", margin: "8px" }}
+            />
             <img
               src={CypressLogo}
               alt="cypress"
@@ -119,42 +126,51 @@ const Skills = () => {
               id="portafolio-img"
               style={{ height: "120px", width: "120px", margin: "8px" }}
             />
-            <img
-              src={CucumberLogo}
-              alt="cucumber"
-              id="portafolio-img"
-              style={{ height: "75px", width: "75px", margin: "8px" }}
-            />{" "}
-            <img
-              src={MySQLLogo}
-              alt="mysql"
-              id="portafolio-img"
-              style={{ height: "75px", width: "75px", margin: "8px" }}
-            />
-            <img
-              src={PostmanLogo}
-              alt="postman"
-              id="portafolio-img"
-              style={{ height: "120px", width: "120px", margin: "8px" }}
-            />
-            <img
-              src={XRayLogo}
-              alt="xray"
-              id="portafolio-img"
-              style={{ height: "75px", width: "75px", margin: "8px" }}
-            />
-            <img
-              src={BitbucketLogo}
-              alt="xray"
-              id="portafolio-img"
-              style={{ height: "65px", width: "65px", margin: "8px" }}
-            />
-            <img
-              src={GitLogo}
-              alt="xray"
-              id="portafolio-img"
-              style={{ height: "75px", width: "75px", margin: "8px" }}
-            />
+            <div />
+            <div className="row align-items-center justify-content-evenly">
+              <img
+                src={CucumberLogo}
+                alt="cucumber"
+                id="portafolio-img"
+                style={{ height: "75px", width: "75px", margin: "8px" }}
+              />{" "}
+              <img
+                src={MySQLLogo}
+                alt="mysql"
+                id="portafolio-img"
+                style={{ height: "95px", width: "95px", margin: "8px" }}
+              />
+              <img
+                src={PostmanLogo}
+                alt="postman"
+                id="portafolio-img"
+                style={{ height: "120px", width: "120px", margin: "8px" }}
+              />
+              <img
+                src={XRayLogo}
+                alt="xray"
+                id="portafolio-img"
+                style={{ height: "95px", width: "95px", margin: "8px" }}
+              />
+              <img
+                src={BitbucketLogo}
+                alt="bitbucket"
+                id="portafolio-img"
+                style={{ height: "65px", width: "65px", margin: "8px" }}
+              />
+              <img
+                src={GitLogo}
+                alt="git"
+                id="portafolio-img"
+                style={{ height: "75px", width: "75px", margin: "8px" }}
+              />
+              <img
+                src={JiraLogo}
+                alt="jira"
+                id="portafolio-img"
+                style={{ height: "75px", width: "75px", margin: "8px" }}
+              />
+            </div>
           </div>
         </div>
       </section>
