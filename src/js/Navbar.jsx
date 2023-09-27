@@ -49,6 +49,16 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a
+                  href="https://www.linkedin.com/in/pablo-pena-marin-developer/recent-activity/articles/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="nav-link"
+                >
+                  Blog
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
                   href="/#"
                   className="nav-link"
                   data-bs-toggle="modal"
