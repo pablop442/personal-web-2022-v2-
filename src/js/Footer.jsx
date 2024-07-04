@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="p-5 text-white text-center position-relative">
         <div className="container">
           <p className="">
-            Copyright &copy; 2023{" "}
+            Copyright &copy; 2024{" "}
             <a
               href="/#"
               data-bs-toggle="modal"

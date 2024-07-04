@@ -7,8 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { VscLaw } from "react-icons/vsc";
 import "./education.css";
-import { FaKeyboard } from "react-icons/fa";
-import { RiBusWifiFill, RiGovernmentFill } from "react-icons/ri";
+import { RiCodeBoxFill, RiBilibiliFill, RiLightbulbFlashFill, RiSettingsFill } from "react-icons/ri";
 
 const Education = () => {
   return (
@@ -22,6 +21,64 @@ const Education = () => {
             <h3 className="text-white fst-italic">Education</h3>
             <div className=" col-md-8">
               <VerticalTimeline>
+              <VerticalTimelineElement
+                  className="vertical-timeline-element--work"
+                  contentStyle={{
+                    background: "none",
+                    color: "#fff",
+                    border: "1px solid white",
+                    boxShadow: "6px 6px 2px 0px #034078",
+                  }}
+                  contentArrowStyle={{
+                    border: "2px solid white",
+                    width: "10px",
+                  }}
+                  date="2024"
+                  dateClassName="date-text-right"
+                  iconStyle={{
+                    background: "#0A1128",
+                    color: "#fff",
+                    border: "3px solid white",
+                    boxShadow: "none",
+                  }}
+                  icon={<RiLightbulbFlashFill />}
+                >
+                  <h4 className="vertical-timeline-element-title fw-bold mb-3">
+                  Docker for Beginners 
+                  </h4>
+                  <h5 className="vertical-timeline-element-subtitle fst-italic">
+                  Udemy
+                  </h5>
+                </VerticalTimelineElement>
+              <VerticalTimelineElement
+                  className="vertical-timeline-element--work"
+                  contentStyle={{
+                    background: "none",
+                    color: "#fff",
+                    border: "1px solid white",
+                    boxShadow: "6px 6px 2px 0px #034078",
+                  }}
+                  contentArrowStyle={{
+                    border: "2px solid white",
+                    width: "10px",
+                  }}
+                  date="2023"
+                  dateClassName="date-text-right"
+                  iconStyle={{
+                    background: "#0A1128",
+                    color: "#fff",
+                    border: "3px solid white",
+                    boxShadow: "none",
+                  }}
+                  icon={<RiBilibiliFill />}
+                >
+                  <h4 className="vertical-timeline-element-title fw-bold mb-3">
+                  Robot Framework Test Automation
+                  </h4>
+                  <h5 className="vertical-timeline-element-subtitle fst-italic">
+                  Udemy
+                  </h5>
+                </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className="vertical-timeline-element--work"
                   contentStyle={{
@@ -42,7 +99,7 @@ const Education = () => {
                     border: "3px solid white",
                     boxShadow: "none",
                   }}
-                  icon={<FaKeyboard />}
+                  icon={<RiSettingsFill />}
                 >
                   <h4 className="vertical-timeline-element-title fw-bold mb-4">
                   Cypress Modern Automation Testing
@@ -71,42 +128,13 @@ const Education = () => {
                     border: "3px solid white",
                     boxShadow: "none",
                   }}
-                  icon={<RiBusWifiFill />}
+                  icon={<RiCodeBoxFill />}
                 >
                   <h4 className="vertical-timeline-element-title fw-bold mb-3">
                   Full Stack Developer
                   </h4>
                   <h5 className="vertical-timeline-element-subtitle fst-italic">
                   4Geeks Academy
-                  </h5>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                  className="vertical-timeline-element--work"
-                  contentStyle={{
-                    background: "none",
-                    color: "#fff",
-                    border: "1px solid white",
-                    boxShadow: "-6px 6px 2px 0px #034078",
-                  }}
-                  contentArrowStyle={{
-                    border: "2px solid white",
-                    width: "10px",
-                  }}
-                  date="2021"
-                  dateClassName="date-text"
-                  iconStyle={{
-                    background: "#0A1128",
-                    color: "#fff",
-                    border: "3px solid white",
-                    boxShadow: "none",
-                  }}
-                  icon={<RiGovernmentFill />}
-                >
-                  <h4 className="vertical-timeline-element-title fw-bold mb-3">
-                  Sustainable Development and Smart Cities Diploma
-                  </h4>
-                  <h5 className="vertical-timeline-element-subtitle fst-italic">
-                  Universidad Católica Andrés Bello
                   </h5>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

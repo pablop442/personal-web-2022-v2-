@@ -13,7 +13,7 @@ import {
   FaFlask,
   FaFileDownload,
 } from "react-icons/fa";
-import myCV from "../img/Pablo_Peña_Resume_2023_EN.pdf";
+import myCV from "../img/Pablo_Pena_Resume_2024_EN.pdf";
 
 const Experience = () => {
   return (
@@ -66,7 +66,7 @@ const Experience = () => {
                     Quality Assurance Engineer - Mid Level
                   </h4>
                   <h5 className="vertical-timeline-element-subtitle fst-italic mb-4">
-                    Sngular
+                    SNGULAR
                   </h5>
 
                   <p>

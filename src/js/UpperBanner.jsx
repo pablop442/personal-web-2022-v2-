@@ -2,6 +2,7 @@ import React from "react";
 import "./upperBanner.css";
 import BgImgReducedSize from "../img/BgImgReducedSize.jpg";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { RiMediumFill } from "react-icons/ri";
 import Typical from "react-typical";
 import UpperBtn from "./UpperBtn.jsx";
 let bgImg = {
@@ -31,6 +32,7 @@ const UpperBanner = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mx-2"
+                title="Linkedin"
               >
                 <FaLinkedin className="contact-icon" />
               </a>
@@ -39,8 +41,18 @@ const UpperBanner = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mx-2"
+                title="Github"
               >
                 <FaGithub className="contact-icon" />
+              </a>
+              <a
+                href="https://medium.com/@pablo442"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mx-2"
+                title="Medium"
+              >
+                <RiMediumFill  className="contact-icon" />
               </a>
             </div>
 

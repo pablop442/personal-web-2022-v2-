@@ -49,7 +49,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.linkedin.com/in/pablo-pena-marin-developer/recent-activity/articles/"
+                  href="https://medium.com/@pablo442"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-link"

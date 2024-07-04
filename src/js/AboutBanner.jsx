@@ -21,14 +21,9 @@ const AboutBanner = () => {
             </div>
             <div className="col-lg-8 col-12">
               <p className="lead">
-                You read right! I am a seasoned legal professional who embarked on an exciting
-                journey that led me to the dynamic world of technology.<br></br>
-                Eager to dive into this rapidly evolving field, I enrolled in a
-                rigorous programming bootcamp, where I honed my skills in
-                JavaScript, SQL, Python, and various other programming
-                languages. As I delved deeper into the world of coding, I found
-                my true calling in the realm of quality assurance (QA) and
-                automation testing.
+                I'm a lawyer who decided to pursue his passion for technology by enrolling in a programming bootcamp. Down the road I discovered the amazing world of Quality Assurance and stayed there ever since.<br></br>
+                Passionate about software testing and test automation. I consider myself a natural problem solver, creating solutions that help solve real-life problems through technology.
+                Always eager to learn new thechnologies and people. 
               </p>
             </div>
           </div>
