@@ -1,7 +1,6 @@
-import React from "react";
 import "./footer.css";
 import { BsArrowUpCircle } from "react-icons/bs";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub} from "react-icons/fa";
 
 const Footer = () => {
   return (
