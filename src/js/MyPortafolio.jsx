@@ -82,7 +82,7 @@ const MyPortafolio = () => {
                   <p className="card-text">
                     End to end test suite for ParaBank website. Developed with
                     Cypress and Typescript. We use Behavior Driven Development
-                    using Cucumber. (Work in Progress)
+                    using Cucumber.
                   </p>
                   <button className="btn btn-primary visit-btn px-3">
                     <a

@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="p-5 text-white text-center position-relative">
         <div className="container">
           <p className="">
-            Copyright &copy; 2024{" "}
+            Copyright &copy; 2025{" "}
             <a
               href="/#"
               data-bs-toggle="modal"
@@ -35,14 +35,6 @@ const Footer = () => {
               className="mx-2"
             >
               <FaGithub />
-            </a>
-            <a
-              href="https://twitter.com/Pablo442"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mx-2"
-            >
-              <FaTwitter />
             </a>
           </p>
 
