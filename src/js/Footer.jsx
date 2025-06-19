@@ -1,7 +1,6 @@
-import React from "react";
 import "./footer.css";
 import { BsArrowUpCircle } from "react-icons/bs";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
       <footer className="p-5 text-white text-center position-relative">
         <div className="container">
           <p className="">
-            Copyright &copy; 2024{" "}
+            Copyright &copy; 2025{" "}
             <a
               href="/#"
               data-bs-toggle="modal"
@@ -35,14 +34,6 @@ const Footer = () => {
               className="mx-2"
             >
               <FaGithub />
-            </a>
-            <a
-              href="https://twitter.com/Pablo442"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mx-2"
-            >
-              <FaTwitter />
             </a>
           </p>
 

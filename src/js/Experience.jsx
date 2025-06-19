@@ -66,12 +66,12 @@ const Experience = () => {
                     Quality Assurance Engineer - Mid Level
                   </h4>
                   <h5 className="vertical-timeline-element-subtitle fst-italic mb-4">
-                    SNGULAR
+                    Sngular
                   </h5>
 
                   <p>
                     Planning and executing automated and manual test to
-                    guarantee high quality of client's software.
+                    guarantee high quality of a major Test Management product.
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -104,8 +104,7 @@ const Experience = () => {
                   </h5>
 
                   <p>
-                    Ensure high quality standards of mobile and web products,
-                    both with manual and automated testing.
+                    Ensure high standards of mobile and web financial products, both with manual and automated testing
                   </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

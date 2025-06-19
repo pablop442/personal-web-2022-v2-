@@ -23,7 +23,7 @@ const AboutBanner = () => {
               <p className="lead">
                 I'm a lawyer who decided to pursue his passion for technology by enrolling in a programming bootcamp. Down the road I discovered the amazing world of Quality Assurance and stayed there ever since.<br></br>
                 Passionate about software testing and test automation. I consider myself a natural problem solver, creating solutions that help solve real-life problems through technology.
-                Always eager to learn new thechnologies and people. 
+                Always eager to learn new technologies and face new challenges. 
               </p>
             </div>
           </div>
