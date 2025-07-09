@@ -14,6 +14,7 @@ import BitbucketLogo from "../img/bitbucket.svg";
 import GitLogo from "../img/git-icon.svg";
 import RobotFrameworkLogo from "../img/robotframework-svgrepo-com.svg";
 import JiraLogo from "../img/jira-svgrepo-com.svg";
+import AwsLogo from "../img/awsLogo.svg";
 
 const Skills = () => {
   return (
@@ -107,6 +108,12 @@ const Skills = () => {
               alt="appium"
               id="portafolio-img"
               style={{ height: "75px", width: "75px", margin: "8px" }}
+            />
+            <img
+              src={AwsLogo}
+              alt="aws"
+              id="portafolio-img"
+              style={{ height: "85px", width: "85px", margin: "8px" }}
             />
             <img
               src={RobotFrameworkLogo}
