@@ -12,6 +12,7 @@ import FluxLogo from "../img/flux.svg";
 import CypressLogo from "../img/Cypress_Logotype_White-Color.svg";
 import TypeScriptLogo from "../img/typescript-icon.svg";
 import CucumberLogo from "../img/cucumber.svg";
+import AwsLogo from "../img/awsLogo.svg";
 
 const MyPortafolio = () => {
   return (
@@ -24,19 +25,21 @@ const MyPortafolio = () => {
             <div className="col-lg-4">
               <div className="card bg-transparent text-light portafolio-card h-100">
                 <div className="card-body text-center d-flex align-content-between flex-wrap d-flex justify-content-center">
-                  <h5 class="card-title fw-bold">Web elements automation</h5>
-                  <img
-                    src={CypressLogo}
-                    alt="cypress"
-                    id="portafolio-img"
-                    style={{ height: "100px", width: "100px", margin: "8px" }}
-                  />
-                  <img
-                    src={JSLogo}
-                    alt="javascript"
-                    id="portafolio-img"
-                    style={{ height: "65px", width: "65px", margin: "8px" }}
-                  />
+                  <h5 class="card-title fw-bold">
+                    Web elements automation
+                  </h5>
+                  <div className="d-flex align-items-center justify-content-center">
+                    <img
+                      src={CypressLogo}
+                      alt="cypress"
+                      style={{ height: "100px", width: "100px", margin: "8px" }}
+                    />
+                    <img
+                      src={JSLogo}
+                      alt="javascript"
+                      style={{ height: "65px", width: "65px", margin: "8px" }}
+                    />
+                  </div>
                   <p className="card-text">
                     Using Cypress and JavaScript this project automates some of
                     the most common web elements. A series of end to end tests
@@ -87,6 +90,33 @@ const MyPortafolio = () => {
                   <button className="btn btn-primary visit-btn px-3">
                     <a
                       href="https://github.com/pablop442/parabank-e2e"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Check it out
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="card bg-transparent text-light portafolio-card h-100">
+                <div className="card-body text-center d-flex align-content-between flex-wrap d-flex justify-content-center">
+                  <h5 class="card-title fw-bold">
+                    AWS Website Health Monitor
+                  </h5>
+                  <img
+                    src={AwsLogo}
+                    alt="aws"
+                    id="portafolio-img"
+                    style={{ height: "100px", width: "100px", margin: "8px" }}
+                  />
+                  <p className="card-text">
+                    Reliable automated website health check created entirely within AWS free tier. Checks every 5 minutes if a website is up and running, and sends an email notification if it goes down. Built with AWS Lambda, EventBridge, CloudWatch, and SNS.
+                  </p>
+                  <button className="btn btn-primary visit-btn px-3">
+                    <a
+                      href="https://github.com/pablop442/aws-lambda-website-status-monitor"
                       target="_blank"
                       rel="noreferrer"
                     >
