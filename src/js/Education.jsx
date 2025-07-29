@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { VscLaw } from "react-icons/vsc";
 import "./education.css";
 import { RiCodeBoxFill, RiBilibiliFill, RiLightbulbFlashFill, RiSettingsFill } from "react-icons/ri";
-// import { BsCloudsFill } from "react-icons/bs";
+import { BsCloudsFill } from "react-icons/bs";
 
 const Education = () => {
   return (
@@ -22,7 +22,7 @@ const Education = () => {
             <h3 className="text-white fst-italic">Education</h3>
             <div className=" col-md-8">
               <VerticalTimeline>
-                {/* <VerticalTimelineElement
+                <VerticalTimelineElement
                   className="vertical-timeline-element--work"
                   contentStyle={{
                     background: "none",
@@ -50,7 +50,7 @@ const Education = () => {
                   <h5 className="vertical-timeline-element-subtitle fst-italic">
                   Amazon Web Services
                   </h5>
-                </VerticalTimelineElement> */}
+                </VerticalTimelineElement>
               <VerticalTimelineElement
                   className="vertical-timeline-element--work"
                   contentStyle={{

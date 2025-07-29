@@ -13,7 +13,7 @@ import {
   FaFlask,
   FaFileDownload,
 } from "react-icons/fa";
-import myCV from "../img/Pablo_Pena_Resume_2024_EN.pdf";
+import myCV from "../img/Pablo_Pena_Resume_2025_EN.pdf";
 
 const Experience = () => {
   return (
