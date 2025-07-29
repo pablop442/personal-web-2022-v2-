@@ -62,7 +62,7 @@ const UpperBanner = () => {
                 steps={[
                   "TypeScript",
                   1000,
-                  "SQL",
+                  "AWS",
                   1000,
                   "Appium",
                   1000,
@@ -70,7 +70,7 @@ const UpperBanner = () => {
                   1000,
                   "WebdriverIO",
                   1000,
-                  "CI/CD",
+                  "Robot Framework",
                   1000,
                 ]}
                 loop={Infinity}
