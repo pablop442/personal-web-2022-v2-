@@ -13,41 +13,40 @@ import CypressLogo from "../img/Cypress_Logotype_White-Color.svg";
 import TypeScriptLogo from "../img/typescript-icon.svg";
 import CucumberLogo from "../img/cucumber.svg";
 import AwsLogo from "../img/awsLogo.svg";
+import PlaywrightLogo from "../img/playwright-logo.svg";
 
 const MyPortafolio = () => {
   return (
     <>
       <section className="p-5 portafolio" id="portafolio">
         <div className="container">
-          <div className="row text-center g-4">
+          <div className="row justify-content-center text-center g-4">
             <h1 className="text-white text-start mt-5">Projects</h1>
             <h4 className="text-white text-center mt-4">Test Automation</h4>
             <div className="col-lg-4">
-              <div className="card bg-transparent text-light portafolio-card h-100">
+              <div className="card bg-transparent text-light portafolio-card h-100 py-3">
                 <div className="card-body text-center d-flex align-content-between flex-wrap d-flex justify-content-center">
                   <h5 class="card-title fw-bold">
-                    Web elements automation
+                    TMDB Playwright UI-API Automation 
                   </h5>
                   <div className="d-flex align-items-center justify-content-center">
                     <img
-                      src={CypressLogo}
-                      alt="cypress"
+                      src={PlaywrightLogo}
+                      alt="playwright"
                       style={{ height: "100px", width: "100px", margin: "8px" }}
                     />
                     <img
-                      src={JSLogo}
-                      alt="javascript"
+                      src={TypeScriptLogo}
+                      alt="typescript"
                       style={{ height: "65px", width: "65px", margin: "8px" }}
                     />
                   </div>
                   <p className="card-text">
-                    Using Cypress and JavaScript this project automates some of
-                    the most common web elements. A series of end to end tests
-                    were prepared to test the correct functionality of the web.
+                    The project validates UI sorting and filtering of movies against TMDB’s API responses, ensuring that what users see on screen matches what the backend delivers.
                   </p>
                   <button className="btn btn-primary visit-btn px-3 ">
                     <a
-                      href="https://github.com/pablop442/herokuapp-automation"
+                      href="https://github.com/pablop442/movie-db-playwright-automation"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -58,7 +57,7 @@ const MyPortafolio = () => {
               </div>
             </div>
             <div className="col-lg-4">
-              <div className="card bg-transparent text-light portafolio-card h-100">
+              <div className="card bg-transparent text-light portafolio-card h-100 py-3">
                 <div className="card-body text-center d-flex align-content-between flex-wrap d-flex justify-content-center">
                   <h5 class="card-title fw-bold">
                     ParaBank End to End test automation
@@ -99,8 +98,46 @@ const MyPortafolio = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="row justify-content-center text-center g-4 mt-3">
             <div className="col-lg-4">
-              <div className="card bg-transparent text-light portafolio-card h-100">
+              <div className="card bg-transparent text-light portafolio-card h-100 py-3">
+                <div className="card-body text-center d-flex align-content-between flex-wrap d-flex justify-content-center">
+                  <h5 class="card-title fw-bold">
+                    Web elements automation
+                  </h5>
+                  <div className="d-flex align-items-center justify-content-center">
+                    <img
+                      src={CypressLogo}
+                      alt="cypress"
+                      style={{ height: "100px", width: "100px", margin: "8px" }}
+                    />
+                    <img
+                      src={JSLogo}
+                      alt="javascript"
+                      style={{ height: "65px", width: "65px", margin: "8px" }}
+                    />
+                  </div>
+                  <p className="card-text">
+                    Using Cypress and JavaScript this project automates some of
+                    the most common web elements. A series of end to end tests
+                    were prepared to test the correct functionality of the web.
+                  </p>
+                  <button className="btn btn-primary visit-btn px-3 ">
+                    <a
+                      href="https://github.com/pablop442/herokuapp-automation"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Check it out
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div className="col-lg-4">
+              <div className="card bg-transparent text-light portafolio-card h-100 py-3">
                 <div className="card-body text-center d-flex align-content-between flex-wrap d-flex justify-content-center">
                   <h5 class="card-title fw-bold">
                     AWS Website Health Monitor
@@ -221,7 +258,7 @@ const MyPortafolio = () => {
                 </div>
               </div>
               <div className="col-lg-4">
-                <div className="card bg-transparent text-light portafolio-card h-100">
+                <div className="card bg-transparent text-light portafolio-card h-100 py-3">
                   <div className="card-body text-center">
                     <h5 class="card-title fw-bold">React Task List</h5>
                     <img
@@ -274,7 +311,7 @@ const MyPortafolio = () => {
                 </div>
               </div>
               <div className="col-lg-4">
-                <div className="card bg-transparent text-light portafolio-card h-100">
+                <div className="card bg-transparent text-light portafolio-card h-100 py-3">
                   <div className="card-body text-center">
                     <h5 class="card-title fw-bold">R.O.I. Calculator</h5>
                     <img
@@ -334,7 +371,7 @@ const MyPortafolio = () => {
                 </div>
               </div>
               <div className="col-lg-4">
-                <div className="card bg-transparent text-light portafolio-card h-100">
+                <div className="card bg-transparent text-light portafolio-card h-100 py-3">
                   <div className="card-body text-center">
                     <h5 class="card-title fw-bold">
                       Vanilla JS Card Generator
