@@ -15,6 +15,7 @@ import GitLogo from "../img/git-icon.svg";
 import RobotFrameworkLogo from "../img/robotframework-svgrepo-com.svg";
 import JiraLogo from "../img/jira-svgrepo-com.svg";
 import AwsLogo from "../img/awsLogo.svg";
+import PlaywrightLogo from "../img/playwright-logo.svg";
 
 const Skills = () => {
   return (
@@ -128,6 +129,12 @@ const Skills = () => {
               style={{ height: "120px", width: "120px", margin: "8px" }}
             />
             <img
+              src={PlaywrightLogo}
+              alt="playwright"
+              id="portafolio-img"
+              style={{ height: "100px", width: "100px", margin: "8px" }}
+            />
+             <img
               src={WebDriverIo}
               alt="wdio"
               id="portafolio-img"
