@@ -3,7 +3,7 @@ import "./upperBanner.css";
 import BgImgReducedSize from "../img/BgImgReducedSize.jpg";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { RiMediumFill } from "react-icons/ri";
-import Typical from "react-typical";
+import { TypeAnimation } from 'react-type-animation';
 import UpperBtn from "./UpperBtn.jsx";
 let bgImg = {
   background: `linear-gradient(0deg, rgba(10, 17, 40, 0.7), rgba(10, 17, 40, 0.7)), url(${BgImgReducedSize})`,
@@ -52,29 +52,30 @@ const UpperBanner = () => {
                 className="mx-2"
                 title="Medium"
               >
-                <RiMediumFill  className="contact-icon" />
+                <RiMediumFill className="contact-icon" />
               </a>
             </div>
 
             <UpperBtn />
             <div className="my-5 ps-3  border-start">
-              <Typical
-                steps={[
-                  "TypeScript",
+              <TypeAnimation
+                sequence={[
+                  'TypeScript',
                   1000,
-                  "AWS",
+                  'Java',
                   1000,
-                  "Appium",
+                  'Appium',
                   1000,
-                  "Cypress",
+                  'AWS',
                   1000,
-                  "WebdriverIO",
+                  'WebdriverIO',
                   1000,
-                  "Robot Framework",
+                  'Robot Framework',
                   1000,
                 ]}
-                loop={Infinity}
+                repeat={Infinity}
                 wrapper="h2"
+                speed={60}
               />
             </div>
           </div>

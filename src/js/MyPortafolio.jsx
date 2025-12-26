@@ -14,6 +14,7 @@ import TypeScriptLogo from "../img/typescript-icon.svg";
 import CucumberLogo from "../img/cucumber.svg";
 import AwsLogo from "../img/awsLogo.svg";
 import PlaywrightLogo from "../img/playwright-logo.svg";
+import JavaLogo from "../img/java-logo.svg";
 
 const MyPortafolio = () => {
   return (
@@ -23,6 +24,34 @@ const MyPortafolio = () => {
           <div className="row justify-content-center text-center g-4">
             <h1 className="text-white text-start mt-5">Projects</h1>
             <h4 className="text-white text-center mt-4">Test Automation</h4>
+            <div className="col-lg-4">
+              <div className="card bg-transparent text-light portafolio-card h-100 py-3">
+                <div className="card-body text-center d-flex align-content-between flex-wrap d-flex justify-content-center">
+                  <h5 class="card-title fw-bold">
+                    Java + RestAssured API Automation Engine 
+                  </h5>
+                  <div className="d-flex align-items-center justify-content-center">
+                    <img
+                      src={JavaLogo}
+                      alt="java"
+                      style={{ height: "100px", width: "100px", margin: "8px" }}
+                    />
+                  </div>
+                  <p className="card-text">
+                    Uses Java and RestAssured to perform API testing. It is built using POJO design pattern and incorporates Data-Driven Testing (DDT) principles to enhance test coverage and maintainability. Includes Allure reports for detailed test results analysis.
+                  </p>
+                  <button className="btn btn-primary visit-btn px-3 ">
+                    <a
+                      href="https://github.com/pablop442/api-test-automation-java"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Check it out
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
             <div className="col-lg-4">
               <div className="card bg-transparent text-light portafolio-card h-100 py-3">
                 <div className="card-body text-center d-flex align-content-between flex-wrap d-flex justify-content-center">

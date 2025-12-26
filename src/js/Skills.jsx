@@ -16,6 +16,7 @@ import RobotFrameworkLogo from "../img/robotframework-svgrepo-com.svg";
 import JiraLogo from "../img/jira-svgrepo-com.svg";
 import AwsLogo from "../img/awsLogo.svg";
 import PlaywrightLogo from "../img/playwright-logo.svg";
+import JavaLogo from "../img/java-logo.svg";
 
 const Skills = () => {
   return (
@@ -105,6 +106,12 @@ const Skills = () => {
               style={{ height: "75px", width: "75px", margin: "8px" }}
             />
             <img
+              src={JavaLogo}
+              alt="java"
+              id="portafolio-img"
+              style={{ height: "85px", width: "85px", margin: "8px" }}
+            />
+            <img
               src={AppiumLogo}
               alt="appium"
               id="portafolio-img"
@@ -123,8 +130,8 @@ const Skills = () => {
               style={{ height: "85px", width: "85px", margin: "8px" }}
             />
             <img
-              src={CypressLogo}
-              alt="cypress"
+              src={WebDriverIo}
+              alt="wdio"
               id="portafolio-img"
               style={{ height: "120px", width: "120px", margin: "8px" }}
             />
@@ -134,14 +141,15 @@ const Skills = () => {
               id="portafolio-img"
               style={{ height: "100px", width: "100px", margin: "8px" }}
             />
-             <img
-              src={WebDriverIo}
-              alt="wdio"
-              id="portafolio-img"
-              style={{ height: "120px", width: "120px", margin: "8px" }}
-            />
+            
             <div />
             <div className="row align-items-center justify-content-evenly">
+              <img
+              src={CypressLogo}
+              alt="cypress"
+              id="portafolio-img"
+              style={{ height: "110px", width: "110px", margin: "8px" }}
+            />
               <img
                 src={CucumberLogo}
                 alt="cucumber"
