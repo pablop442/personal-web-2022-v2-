@@ -11,7 +11,7 @@ const AboutBanner = () => {
       >
         <div className="container">
           <div className="row align-items-center justify-content-between">
-            <h1 className="text-white my-3">From Lawyer to QA engineer?</h1>
+            <h1 className="text-white my-3">Delivering Confidence in Software </h1>
             <div className="col-lg-4 ">
               <img
                 className="img-fluid d-none d-sm-block"
@@ -21,9 +21,7 @@ const AboutBanner = () => {
             </div>
             <div className="col-lg-8 col-12">
               <p className="lead">
-                I'm a lawyer who decided to pursue his passion for technology by enrolling in a programming bootcamp. Down the road I discovered the amazing world of Quality Assurance and stayed there ever since.<br></br>
-                Passionate about software testing and test automation. I consider myself a natural problem solver, creating solutions that help solve real-life problems through technology.
-                Always eager to learn new technologies and face new challenges. 
+                Quality Assurance Engineer with over 3 years of experience in manual and automated testing for web and mobile applications. Passionate about software testing and test automation. A natural problem solver, I build solutions that improve product quality and user experience. 
               </p>
             </div>
           </div>
