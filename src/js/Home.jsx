@@ -17,9 +17,9 @@ function Home() {
       <ContactMe />
       <UpperBanner />
       <AboutBanner />
+      <MyPortafolio />
       <Skills />
       <MyResume />
-      <MyPortafolio />
       <Footer />
 
 
